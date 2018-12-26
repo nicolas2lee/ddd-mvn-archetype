@@ -1,0 +1,54 @@
+<archetype-descriptor name="${artifactId}">
+    <fileSets>
+        <fileSet encoding="UTF-8">
+            <directory>/</directory>
+            <includes>
+                <include>.editorconfig</include>
+                <include>.gitignore</include>
+                <include>README.md</include>
+                <include>LICENSE.txt</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+    <modules>
+        <module id="application" dir="application" name="application">
+           <!-- <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.java</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.xml</include>
+                        <include>**/*.properties</include>
+                        <include>**/*.yml</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                    <includes>
+                        <include>**/*.java</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8">
+                    <directory>src/test/resources</directory>
+                    <includes>
+                        <include>**/*.xml</include>
+                        <include>**/*.properties</include>
+                        <include>**/*.yml</include>
+                    </includes>
+                </fileSet>
+            </fileSets>-->
+        </module>
+        <module id="domain" dir="domain" name="domain">
+        </module>
+        <module id="exposition" dir="exposition" name="exposition">
+
+        </module>
+        <module id="infra" dir="infra" name="infra">
+        </module>
+    </modules>
+</archetype-descriptor>

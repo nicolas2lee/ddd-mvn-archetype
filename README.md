@@ -1,1 +1,0 @@
-# ddd-mvn-archetype
